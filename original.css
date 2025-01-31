@@ -1,0 +1,169 @@
+body{
+    background-color: rgb(170, 206, 230);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav{
+    
+}
+.navbar ul{
+    list-style: none;
+    
+}
+.navbar a{
+    color: black;
+    text-decoration: none;
+    padding: 25px;
+    display: block;
+    text-align: right;
+}
+.navbar a:hover{
+    color: black;
+    font-weight: bold;
+}
+.navbar li{
+    float:right;
+    border-bottom:2px solid rgb(0, 0, 0) ;
+}
+.whole_body{
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    
+}
+.info{
+    background-color: aliceblue;
+    position: relative;
+    border-radius: 5%;
+    padding: 40px;
+    width: 60%;
+    height: 50%;
+    left: 7%;
+    box-shadow: .5px .5px 20px;
+    
+
+}
+.profile{
+    background-color: rgb(127, 238, 255);
+    border-radius: 5%;
+    position: absolute;
+    right: 95%;
+    padding: 1%;
+    box-shadow: .5px .5px 20px;
+
+}
+.profile p{
+    position: relative;
+    font-size: 13.5px;
+    bottom: 20px;
+}
+.profile h2{
+    text-align: center;
+}
+.profile img{
+    position: relative;
+
+}
+.socials{
+    position: relative;
+    left: 23%;
+    bottom:10px;
+}
+.socials img{
+    padding: 5%;
+}
+
+h1{
+    font-size: 50px;
+}
+.more_info a{
+    text-decoration: none;   
+    color: black;
+    font-size: 20px;
+    padding: 5px;
+}
+.more_info a{
+    border-style: solid;
+    border-radius: 50px;
+    border-color: black;
+    border-width: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+.more_info a:hover{
+    background-color: rgb(86, 183, 198);
+    color: white;
+    border-style: none;
+}
+.head_line{
+    position: absolute;
+    text-align: center;
+}
+.job{
+    position: absolute;
+    background-color: aqua;
+    padding: 5px;
+    margin: 50px;
+}
+#desc{
+    position: relative;
+    text-align: center;
+    padding: 5px;
+    margin: 20px;
+}
+
+/*this is where you exclude this or not*/
+
+.cv_download{
+    position: absolute;
+    top: 19%;
+    left: 65%;
+}
+
+.cv_download a{
+    color: black;
+    text-decoration: none;
+    border-style: solid;
+    border-radius: 50px;
+    border-color: black;
+    border-width: 1px;
+    padding: 3px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+
+.resume{
+    position: absolute;
+    top: 25%;
+    
+}
+
+.work{
+    
+    background-color: antiquewhite;
+    border-radius: 10px;
+    position: relative;
+    padding: 5%;
+    box-shadow: 0px .5px 20px;
+    width: 40%;
+    top: 30%;
+    left: 25%;
+}
+.work h1{
+    font-size: 5vh;
+}
+.work h4{
+    padding-bottom: 10px;
+    border-bottom:2px solid rgb(0, 0, 0) ;
+    width: 100%;
+}
+.work p{
+    text-indent: 50px;
+}
+.work img{
+    position: relative;
+    width: 20%;
+    left: 80%;
+    
+}
