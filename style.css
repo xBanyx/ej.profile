@@ -30,8 +30,13 @@ body {
 }
 
 .navbar a:hover {
-    color: black;
     font-weight: bold;
+}
+.active {
+    background-color: black;
+}
+.active a {
+    color: aliceblue;
 }
 
 /* Profile and Info Sections */
