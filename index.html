@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+<nav class="navbar">
+    <div class="container nav-container">
+        <a href="#home" class="logo"><span>My </span>Portfolio</a>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#experience" class="nav-link">Experience</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+    <!-- Hero Section -->
+<section id="home" class="hero">
+    <!-- Background Image -->
+    <div class="hero-bg">
+        <img src="1st brender.jpg" alt="Hero Background">
+    </div>
+    <!-- Overlay for better text readability -->
+    <div class="hero-overlay"></div>
+    
+    <div class="container hero-content hidden">
+        <h3>Hello, I'm</h3>
+        <h1>Ej Tagala</h1>
+        <h3><span class="multiple-text">Graphic Designer • Web Developer • Indie Game Developer</span></h3>
+        <p>Crafting visually compelling designs, intuitive user experiences, and modern, responsive websites. As a one-man indie game developer, I handle every aspect of game creation—from concept and programming to design and publishing—bringing creative ideas to life across both web and interactive experiences.</p>
+        <div class="social-media">
+            <a href="https://www.linkedin.com/in/jessmero-tagala-21055b154/"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/xBanyx"><i class="fab fa-github"></i></a>
+            <a href="www.instagram.com/ej_tagala"><i class="fab fa-instagram"></i></a>
+        </div>
+        <a href="#projects" class="btn">View My Work</a>
+    </div>
+</section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container about-content hidden">
+            <div class="about-img">
+                <!-- Replace src with your photo -->
+                <img src="ej_dp_new.jpg" alt="Profile Photo">
+            </div>
+            <div class="about-text">
+                <h2 class="heading">About Me</h2>
+                <p>I'm a multidisciplinary digital creator specializing in web development, graphic design, IT support, and indie game development. I build responsive websites, craft compelling visual identities, develop engaging games, and provide reliable technical solutions that help businesses and creative projects thrive.</p>
+                
+                <div class="skills">
+                    <h3>My Skills</h3>
+                    <div class="skill-tags">
+                        <span>Photoshop</span>
+                        <span>Illustrator</span>
+                        <span>Video Editor</span>
+                        <span>UI/UX Design</span>
+                        <span>Game Developer</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+<!-- Projects Section -->
+<section id="projects" class="projects">
+    <div class="container">
+        <h2 class="heading hidden">Latest Projects</h2>
+        
+        <!-- Desktop: Grid | Mobile: Carousel (Single Structure) -->
+        <div class="projects-wrapper">
+            
+            <!-- Project Card 1 -->
+            <div class="project-card hidden">
+                <div class="project-img">
+                    <img src="https://mcrocapalonga.github.io/info/mcro_LOGOs.png" alt="E-Commerce Website Preview">
+                </div>
+                <div class="project-info">
+                    <h3>LCR Webpage</h3>
+                    <p>A fully responsive online webpage for the office of the Local Civil Registry</p>
+                    <div class="project-links">
+                        <a href="https://mcrocapalonga.github.io/info/index.html" class="btn-small outline" target="_blank" rel="noopener"><i class="fas fa-external-link-alt"></i> Visit</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card hidden">
+                <div class="project-img">
+                    <img src="map_cover.png" alt="Capalong Map Guide Preview">
+                </div>
+                <div class="project-info">
+                    <h3>Capalong Map Guide</h3>
+                    <p>Interactive map guide for Capalong with location details and directions.</p>
+                    <div class="project-links">
+                        <a href="https://xbanyx.github.io/Capalonga-map/" class="btn-small outline" target="_blank" rel="noopener"><i class="fas fa-external-link-alt"></i> Visit</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Card 2 -->
+            <div class="project-card hidden">
+                <div class="project-img">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx9iCnoWNr47HoCH-oba-jF9imvwKUoq_DAPm7ohNBxQ&s=10" alt="Preview">
+                </div>
+                <div class="project-info">
+                    <h3>Artwork</h3>
+                    <p>My Artwork & Logos</p>
+                    <div class="project-links">
+                        <a href="https://www.instagram.com/ej_tagala/" class="btn-small outline"><i class="fas fa-external-link-alt"></i> Visit</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Card 3 -->
+            <div class="project-card hidden">
+                <div class="project-img">
+                    <img src="https://play.unity.com/_next/image?url=https%3A%2F%2Fplay.unity.com%2Fapi%2Fv1%2Ffiles%2Ffile%2F1c2d865d-0024-4f6a-bf40-f7c7416cec87%2Fcontent&w=640&q=75" alt="Weather Dashboard Preview">
+                </div>
+                <div class="project-info">
+                    <h3>Rollerball</h3>
+                    <p>Turning Unity Tutorial to a Full Horror Game.</p>
+                    <div class="project-links">
+                        <a href="https://play.unity.com/api/v1/games/game/117637ed-18f0-4180-8f14-6f8019ed1419/build/latest/frame" class="btn-small outline"><i class="fas fa-external-link-alt"></i> Visit</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Card 3 -->
+            <div class="project-card hidden">
+                <div class="project-img">
+                    <img src="https://play.unity.com/_next/image?url=https%3A%2F%2Fplay.unity.com%2Fapi%2Fv1%2Ffiles%2Ffile%2F4e9bdfe3-b9ad-4b81-871a-d46fd8fe7898%2Fcontent&w=640&q=75" alt="Weather Dashboard Preview">
+                </div>
+                <div class="project-info">
+                    <h3>Rocket</h3>
+                    <p>Fly, Dodge repeat!!!.</p>
+                    <div class="project-links">
+                        <a href="https://play.unity.com/en/games/7ea3fa0c-07fe-4260-ae20-112e92893c83/rocket" class="btn-small outline"><i class="fas fa-external-link-alt"></i> Visit</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Project Card 4 -->
+            
+        </div>
+
+        <!-- Mobile Carousel Navigation -->
+        <div class="carousel-nav">
+            <button class="carousel-btn prev-btn" aria-label="Previous project"><i class="fas fa-chevron-left"></i></button>
+            <button class="carousel-btn next-btn" aria-label="Next project"><i class="fas fa-chevron-right"></i></button>
+        </div>
+
+    </div>
+</section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="heading hidden">Work Experience</h2>
+            <div class="timeline">
+                
+                <!-- Experience Item 1 -->
+                <div class="timeline-item hidden">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2024 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Clerk I</h3>
+                        <h4>Local Government Unit, Capalonga</h4>
+                        <p>Former Clerk and Data Encoder at the Municipal Civil Registrar, handling client inquiries and document processing. Now working in a new department focused on social media, graphic design, and IT support.</p>
+                    </div>
+                </div>
+
+                <!-- Experience Item 2 -->
+                <div class="timeline-item hidden">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2023 - 2024</div>
+                    <div class="timeline-content">
+                        <h3>Clerk I</h3>
+                        <h4>Local Government Unit, Capalonga</h4>
+                        <p>Clerk and Data Encoder at the Municipal Civil Registrar, assisting clients with record inquiries and handling document processing while maintaining accurate records and efficient workflows.</p>
+                    </div>
+                </div>
+
+                <!-- Experience Item 3 -->
+                <div class="timeline-item hidden">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2021 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Graphic Designer</h3>
+                        <h4>Ej Sign Studio</h4>
+                        <p>Graphic Designer at Ej Sign Studio, designing custom prints, working with clients, and producing high-quality outputs using Illustrator and Photoshop.</p>
+                    </div>
+                </div>
+                <!-- Experience Item 4 -->
+                <div class="timeline-item hidden">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2019 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Graphic Designer</h3>
+                        <h4>Freelance</h4>
+                        <p>A versatile graphic designer with experience in freelance logo design, government service, and custom T-shirt printing, combining creativity, organization, and client-focused work.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container contact-container hidden">
+            <div class="contact-info">
+                <h2 class="heading">Get In Touch</h2>
+                <p>I'm currently open to freelance work or full-time opportunities. Feel free to reach out!</p>
+                
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>Ejtagala.work@gmail.com</span>
+                </div>
+                <!--<div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <span>+1 234 567 890</span>
+                </div>-->
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Capalonga, Camarines Norte</span>
+                </div>
+
+                <div class="social-media">
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            <!--</div>
+
+            <form class="contact-form" id="contactForm">
+                <div class="input-box">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Mobile Number">
+                </div>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>-->
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>Copyright &copy; 2023 by Ej Tagala | All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
